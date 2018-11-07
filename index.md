@@ -91,7 +91,7 @@ Each of the above networks was sample to produce the following file:
 
 The command to learn the networks and compute the clusters is:
 ```shell
-java -jar learnDBMThread.jar -i ./combinedDataset -k 2 -o /output.csv -mt -d 
+java -jar learnDBM.jar -i ./combinedDataset -k 2 -o /output.csv -mt -d 
 ```
 
 Which outputs:
