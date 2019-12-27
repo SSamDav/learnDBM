@@ -47,10 +47,6 @@ usage: learnDBM
  -p,--numParents <int>        Maximum number of parents from preceding
                               time-slice(s). The default values is 1.
  -pm,--parameters             Learns and outputs the network parameters.
- -r,--root <int>              Root node of the intra-slice tree. By
-                              default, root is arbitrary.
- -s,--scoringFunction <arg>   Scoring function to be used, either MDL or
-                              LL. MDL is used by default.
  -sp,--spanning               Forces intra-slice connectivity to be a tree
                               instead of a forest, eventually producing a
                               structure with a lower score.
