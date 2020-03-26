@@ -179,6 +179,7 @@ public class Observations {
 	 */
 	public Observations(List<Attribute> attributes, int[][][] observationsMatrix, double[][] counts) {
 		this.attributes = attributes;
+		this.markovLag = observationsMatrix[0][0].length / attributes.size() - 1;
 		this.usefulObservations = observationsMatrix;
 		this.counts = counts;
 		numSubjects = new int[observationsMatrix.length];
